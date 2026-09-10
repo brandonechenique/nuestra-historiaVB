@@ -44,50 +44,50 @@ const MESES = [
   {
     eyebrow: "Mes I",
     headline: "El primer mes",
-    diary: "Escribe aquí el recuerdo de este mes: cómo empezó, qué sentiste, qué salió sin planear.\n\nPuedes editar este texto directamente en js/script.js, dentro del arreglo MESES.",
-    caption1: "ese día",
-    caption2: "nosotros",
+    diary: "Primer mes: Adaptandonos a la distancia.",
+    caption1: "hermosa",
+    caption2: "coqueto",
     spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/05SZ279Bnz9Zst21BMoZWg?utm_source=generator&si=affe7412466a4ffe" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>` // pega aquí el iframe src de Spotify
   },
   {
     eyebrow: "Mes II",
     headline: "Destino o casualidad",
-    diary: "Segundo mes: cuenta el momento que más recuerdes. Una cita, una llamada, una tontería que se volvió especial.",
-    caption1: "aquel lugar",
+    diary: "Segundo mes: La distancia es temporal",
+    caption1: "fotazo",
     caption2: "esa risa",
-    spotifyEmbed: ""
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0KAqMRUSZwzG3dZLdDA4eH?utm_source=generator&si=3b69e13870094989" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes III",
     headline: "Los OSOS",
-    diary: "Tercer mes: el detalle pequeño que nadie más notó, pero tú sí.",
-    caption1: "casi",
-    caption2: "por fin",
-    spotifyEmbed: ""
+    diary: "Tercer mes: nuestro dia a dia em fotos y notas de video",
+    caption1: "osa",
+    caption2: "oso",
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5l6hpyTGBK0LAAxgPnqTQL?utm_source=generator&si=8961ee7a917d4ccd" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes IV",
-    headline: "No hablo de dinero, hablo de sentirme amado",
-    diary: "Cuarto mes: una frase, una promesa, algo que te dijo o le dijiste.",
-    caption1: "en confianza",
-    caption2: "sin prisa",
-    spotifyEmbed: ""
+    headline: "Sentirme amado",
+    diary: "Cuarto mes: Falta muy poco para vernos de nuevo ",
+    caption1: "besitos",
+    caption2: "selfie",
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3LCdO528GxAl5pRvaQgOZd?utm_source=generator&si=aeff5f8cf31d4858" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes V",
     headline: "Cinco meses de nosotros",
-    diary: "Quinto mes:",
+    diary: "Quinto mes: El tiempo juntos fue hermoso",
     caption1: "de nuevo",
     caption2: "siempre",
-    spotifyEmbed: ""
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0bK3jxkbq5cDKWr68KtO8G?utm_source=generator&si=fa5a33dba3ce47b7" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes VI",
     headline: "Medio año",
-    diary: "Sexto mes: mitad ",
+    diary: "Sexto mes: a mitad de carrera para la meta ",
     caption1: "hoy",
     caption2: "y mañana",
-    spotifyEmbed: ""
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6Wtc1K3dvTIEsWU3rSIZXn?utm_source=generator&si=20baf02f948740b5" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes VII",
@@ -95,20 +95,20 @@ const MESES = [
     diary: "Séptimo mes: se volvio una costumbre bonita realizar videollamda en la madrugada.",
     caption1: "todavía",
     caption2: "contigo",
-    spotifyEmbed: ""
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/5hnyJvgoWiQUYZttV4wXy6?utm_source=generator&si=191c0d1d111f48bd" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes VIII",
     headline: "Lo que no se compra con nada",
     diary: "Octavo mes: nuestro primer mesario juntos",
-    caption1: "detalle",
-    caption2: "gratis",
-    spotifyEmbed: ""
+    caption1: "cena",
+    caption2: "especial",
+    spotifyEmbed: `<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6WBkUQoNie4RIY1cFaqUnP?utm_source=generator&si=4100d3c7a0ce4435" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>`
   },
   {
     eyebrow: "Mes IX",
     headline: "Nueve",
-    diary: "Noveno mes: escribe el recuerdo del mes.",
+    diary: "Noveno mes: ....",
     caption1: "aquí",
     caption2: "ahora",
     spotifyEmbed: ""
@@ -116,7 +116,7 @@ const MESES = [
   {
     eyebrow: "Mes X",
     headline: "Diez",
-    diary: "Décimo mes: escribe el recuerdo del mes.",
+    diary: "Décimo mes:........",
     caption1: "casi un año",
     caption2: "nosotros",
     spotifyEmbed: ""
@@ -124,7 +124,7 @@ const MESES = [
   {
     eyebrow: "Mes XI",
     headline: "Once",
-    diary: "Onceavo mes: escribe el recuerdo del mes.",
+    diary: "Onceavo mes: .....",
     caption1: "cerca",
     caption2: "más",
     spotifyEmbed: ""
@@ -132,7 +132,7 @@ const MESES = [
   {
     eyebrow: "Mes XII",
     headline: "Un año",
-    diary: "Doceavo mes: el balance del año completo.",
+    diary: "Doceavo mes: .............",
     caption1: "un año",
     caption2: "y sigue",
     spotifyEmbed: ""
