@@ -32,11 +32,11 @@ const REVEAL_DAY = 10;
 const INTRO = {
   isIntro: true,
   photoCount: 4,          // la portada usa 4 fotos en vez de 2
-  names: "Gisselle y Lucas",       // el título grande, en cursiva
+  names: "Vico y Echeflique",       // el título grande, en cursiva
   badge: "N Parejas",              // etiqueta roja arriba del título
   tag: "1ª Favorito",              // etiqueta verde junto al año
-  handle: "@usuario",              // se muestra junto a los botones
-  diary: "Escribe aquí cómo empezó todo: dónde se conocieron, qué pasó, cómo fue ese primer momento.",
+  handle: "@vibra",              // se muestra junto a los botones
+  diary: "Todo volvió a encenderse un 10 de enero, exactamente a las 5:20 de la madrugada. Lo que inició como una gran cita terminó con un beso apasionado que lo cambió todo. En ese instante nos dimos cuenta de que la química entre nosotros jamás se había apagado; solo estaba esperando el momento perfecto para salir a flote. Entendimos que no importaba el tiempo ni la distancia: estábamos destinados a volver a encontrarnos",
   spotifyEmbed: "" // la canción de ese día, si quieres
 };
 
