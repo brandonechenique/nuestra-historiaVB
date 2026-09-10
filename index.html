@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nuestra Historia — Edición Mensual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Courier+Prime:wght@400;700&family=Caveat:wght@500;700&family=Sacramento&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<div class="mag" id="mag">
+
+  <!-- ===== MASTHEAD ===== -->
+  <header class="masthead">
+    <div class="masthead-line">
+      <span class="masthead-kicker">Edición íntima · No a la venta</span>
+      <span class="masthead-kicker masthead-date" id="today-date"></span>
+    </div>
+    <h1 class="masthead-title">Nuestra Historia</h1>
+    <div class="masthead-line masthead-sub">
+      <span>Un capítulo nuevo cada día 10</span>
+      <span class="masthead-issue" id="issue-label">Nº 01</span>
+    </div>
+  </header>
+
+  <!-- ===== VIEWPORT DE PÁGINAS ===== -->
+  <main class="pages-viewport">
+    <div class="pages-track" id="pages-track">
+      <!-- las páginas se generan por JS -->
+    </div>
+
+    <button class="nav-arrow nav-prev" id="prev-btn" aria-label="Mes anterior">&#8592;</button>
+    <button class="nav-arrow nav-next" id="next-btn" aria-label="Mes siguiente">&#8594;</button>
+  </main>
+
+  <!-- ===== TABS DE MESES ===== -->
+  <nav class="issue-tabs" id="issue-tabs" aria-label="Selector de mes"></nav>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
